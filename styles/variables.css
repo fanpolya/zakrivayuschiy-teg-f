@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --Inter: 'Inter';
-  --PressStart2P: 'PressStart2P';
+  --main-font: 'Inter';
+  --accent-font: 'PressStart2P';
   --weight-title: 700;
   --weight-text: 400;
   --bg-card-btn: #fff;
@@ -16,7 +16,7 @@
   repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
   linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
 
-  --contour-color:black;
+  --contour-color: #000;
   --animation-fill-color: #FF0000;
   --core-color: white;
   
