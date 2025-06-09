@@ -9,6 +9,11 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+@supports (font-variation-settings: normal) {
+  .page {
+    font-family: 'Inter', sans-serif;
+  }
+}
 
 .page {
   min-inline-size: 320px;
@@ -59,7 +64,7 @@
   gap: 52px;
 }
 
-.card-list{
+.card-list {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -71,7 +76,7 @@
 }
 
 .card__title {
-  font-weight: var(--weigh-title);
+  font-variation-settings: 'wdth' var(--weigh-title);
   font-size: 18px;
   line-height: 22px;
   color: #000;
