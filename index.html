@@ -26,7 +26,7 @@
               Фритрек и нулевой спринт: Подготовка к работе
             </h2>
             <div class="card__content">
-              <img class="card__image" 
+              <img class="card__image workspace" 
               src="./images/workspace.png" 
               alt="Подготовка к работе"
               loading="lazy"/>
@@ -319,6 +319,7 @@
       </ul>
       <button 
       class="save-button button"
+      type="button"
       onclick="window['save-dialog'].showModal()"
       aria-controls="save-dialog">
         <svg 
@@ -335,7 +336,7 @@
     </main>
     <dialog class="dialog" id="save-dialog">
       <svg 
-        xmlns="http://www.w3.org/2000/svg" 
+        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 39 39"
         class="diskette"
         width="39"
@@ -344,7 +345,7 @@
         </svg>
       <h3 class="dialog__text">Вставьте дискету, чтобы продолжить</h3>
       <button class="dialog-button button" 
-      type="submit" 
+      type="button" 
       onclick="window['save-dialog'].close()">
         <span class="button__text">ок</span>
         <span class="visually-hidden">Сохранить</span>
