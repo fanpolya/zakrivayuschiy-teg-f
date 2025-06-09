@@ -12,6 +12,11 @@
 @supports (font-variation-settings: normal) {
   .page {
     font-family: 'Inter', sans-serif;
+    font-variation-settings: 'wdth' var(--weight-text, 400);
+  }
+
+  .card__title {
+  font-variation-settings: 'wdth' var(--weigh-title, 700);
   }
 }
 
@@ -19,8 +24,8 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--Inter, sans-serif);
-  font-weight: var(--weight-text);
-  font-variation-settings: 'wdth' var(--weight-text);
+  font-weight: var(--weight-text, 400);
+  font-variation-settings: 'wdth' var(--weight-text, 400);
   font-size: 18px;
   color: var(--text-color);
   display: flex;
@@ -77,8 +82,8 @@
 }
 
 .card__title {
-  font-weight: var(--weigh-title);
-  font-variation-settings: 'wdth' var(--weigh-title);
+  font-weight: var(--weigh-title, 700);
+  font-variation-settings: 'wdth' var(--weigh-title, 700);
   font-size: 18px;
   line-height: 22px;
   color: #000;
@@ -89,7 +94,7 @@
 .card__content {
   position: relative;
   z-index: 0;
-  font-weight: var(--weight-text);
+  font-weight: var(--weight-text, 400);
   line-height: 21px;
   color: var(--text-color);
 }
@@ -103,7 +108,7 @@
 }
 
 .workspace {
-  filter: grayscale(30%);
+  filter: brightness(1.2) contrast(1.5) sepia(0.6) saturate(120%);
 }
 
 .happy-cat {
