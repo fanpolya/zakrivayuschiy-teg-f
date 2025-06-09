@@ -9,17 +9,6 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-@supports (font-variation-settings: normal) {
-  .page {
-    font-family: 'Inter', sans-serif;
-    font-variation-settings: 'wdth' var(--weight-text, 400);
-  }
-
-  .card__title {
-  font-variation-settings: 'wdth' var(--weigh-title, 700);
-  }
-}
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -82,8 +71,8 @@
 }
 
 .card__title {
-  font-weight: var(--weigh-title, 700);
-  font-variation-settings: 'wdth' var(--weigh-title, 700);
+  font-weight: var(--weight-title, 700);
+  font-variation-settings: 'wdth' var(--weight-title, 700);
   font-size: 18px;
   line-height: 22px;
   color: #000;
