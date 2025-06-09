@@ -14,7 +14,7 @@
   min-block-size: 100dvb;
   font-family: var(--Inter, sans-serif);
   font-weight: var(--weight-text, 400);
-  font-variation-settings: 'wdth' var(--weight-text, 400);
+  font-variation-settings: 'wgth' var(--weight-text, 400);
   font-size: 18px;
   color: var(--text-color);
   display: flex;
@@ -72,7 +72,7 @@
 
 .card__title {
   font-weight: var(--weight-title, 700);
-  font-variation-settings: 'wdth' var(--weight-title, 700);
+  font-variation-settings: 'wgth' var(--weight-title, 700);
   font-size: 18px;
   line-height: 22px;
   color: #000;
