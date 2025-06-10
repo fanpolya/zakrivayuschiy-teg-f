@@ -331,7 +331,8 @@
   border-width: 2px;
   min-inline-size: 341px;
   max-inline-size: 353px;
-  block-size: 191px;
+  max-block-size: 191px;
+  overflow: hidden;
 }
 
 .dialog[open]::backdrop {
